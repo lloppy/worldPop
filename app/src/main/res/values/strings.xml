@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ResponsiveGroupedBarchart</string>
+
+    <string name="world_popul">World population</string>
+    <string name="ten_most_po"> Ten most popular countries</string>
+
+    <string name="label">WORLD</string>
+
+</resources>
