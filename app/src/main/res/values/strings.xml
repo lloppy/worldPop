@@ -7,5 +7,42 @@
     <string name="ten_most_po"> Ten most popular countries</string>
 
     <string name="label">WORLD</string>
+    <string name="items">
+
+        World
+        \n
+        \n
+        \nChina
+        \n
+        \n
+        \nIndia
+        \n
+        \n
+        \nUnited States
+        \n
+        \n
+        \nIndonesia
+        \n
+        \n
+        \nPakistan
+        \n
+        \n
+        \nBrazil
+        \n
+        \n
+        \nNigeria
+        \n
+        \n
+        \nBangladesh
+        \n
+        \n
+        \nRussia
+        \n
+        \n
+        \nMexico
+
+
+
+    </string>
 
 </resources>

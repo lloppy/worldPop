@@ -36,25 +36,42 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/world_popul" />
 
+    <TextView
+        android:id="@+id/items"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="5dp"
+        android:fontFamily="@font/montserrat"
+        android:gravity="bottom"
+        android:paddingBottom="60dp"
+        android:text="@string/items"
+        android:textSize="10sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
     <LinearLayout
         android:id="@+id/layout"
-        android:layout_width="match_parent"
-        android:layout_height="600dp"
+        android:layout_width="402dp"
+        android:layout_height="597dp"
         android:layout_marginBottom="20dp"
         android:orientation="horizontal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/ten_most_po"
         app:layout_constraintVertical_bias="1.0">
 
+
         <com.github.mikephil.charting.charts.HorizontalBarChart
             android:id="@+id/barChart"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_width="348dp"
+            android:layout_height="538dp"
             android:layout_margin="60dp"
-            app:layout_constraintBottom_toBottomOf="parent" />
+            android:layout_marginRight="5dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="@id/ten_most_po" />
 
     </LinearLayout>
 
